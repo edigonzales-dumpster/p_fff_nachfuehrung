@@ -38,8 +38,8 @@ VERSION "2021-05-28"  =
         GSZ2,
         !!@ ili2db.dispName = "Kiesgrube / Abbaugebiet"
         Kiesgrube_Abbaugebiet,
-        !!@ ili2db.dispName = "belasteter Stand (VSB)"
-        belasteter_Standort,
+        !!@ ili2db.dispName = "VSB"
+        VSB,
         !!@ ili2db.dispName = "übriger Spezialfall"
         uebriger_Spezialfall
       );
