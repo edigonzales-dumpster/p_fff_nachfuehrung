@@ -2,13 +2,13 @@
 <TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3">
   <HEADERSECTION SENDER="ili2gpkg-4.3.1-23b1f79e8ad644414773bb9bd1a97c8c265c5082" VERSION="2.3">
     <MODELS>
-      <MODEL NAME="Units" VERSION="2012-02-20" URI="http://www.interlis.ch/models"/>
+      <MODEL NAME="CoordSys" VERSION="2015-11-24" URI="http://www.interlis.ch/models"/>
       <MODEL NAME="InternationalCodes_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
       <MODEL NAME="Localisation_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
       <MODEL NAME="LocalisationCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
       <MODEL NAME="Dictionaries_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
       <MODEL NAME="DictionariesCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
-      <MODEL NAME="CoordSys" VERSION="2015-11-24" URI="http://www.interlis.ch/models"/>
+      <MODEL NAME="Units" VERSION="2012-02-20" URI="http://www.interlis.ch/models"/>
       <MODEL NAME="CHAdminCodes_V1" VERSION="2018-02-19" URI="http://www.geo.admin.ch"/>
       <MODEL NAME="AdministrativeUnits_V1" VERSION="2020-08-25" URI="http://www.geo.admin.ch"/>
       <MODEL NAME="AdministrativeUnitsCH_V1" VERSION="2020-04-24" URI="http://www.geo.admin.ch"/>
@@ -19,69 +19,40 @@
   </HEADERSECTION>
   <DATASECTION>
     <SO_ALW_FFF_Uebersteuerung_20210528.Uebersteuerung BID="SO_ALW_FFF_Uebersteuerung_20210528.Uebersteuerung">
-      <SO_ALW_FFF_Uebersteuerung_20210528.Uebersteuerung.Uebersteuerung TID="b80e7c58-24af-465b-9c96-a1be08bd7049">
+      <SO_ALW_FFF_Uebersteuerung_20210528.Uebersteuerung.Uebersteuerung TID="de90d287-08c9-47ec-927f-3cde42f587ee">
         <Geometrie>
           <SURFACE>
             <BOUNDARY>
               <POLYLINE>
                 <COORD>
-                  <C1>2619247.058</C1>
-                  <C2>1236688.370</C2>
+                  <C1>2619313.009</C1>
+                  <C2>1236457.543</C2>
                 </COORD>
                 <COORD>
-                  <C1>2619914.809</C1>
-                  <C2>1234487.266</C2>
+                  <C1>2619791.151</C1>
+                  <C2>1234231.707</C2>
                 </COORD>
                 <COORD>
-                  <C1>2622297.277</C1>
-                  <C2>1235187.992</C2>
+                  <C1>2621555.332</C1>
+                  <C2>1234553.217</C2>
                 </COORD>
                 <COORD>
-                  <C1>2619247.058</C1>
-                  <C2>1236688.370</C2>
+                  <C1>2621406.943</C1>
+                  <C2>1236185.496</C2>
+                </COORD>
+                <COORD>
+                  <C1>2619313.009</C1>
+                  <C2>1236457.543</C2>
                 </COORD>
               </POLYLINE>
             </BOUNDARY>
           </SURFACE>
         </Geometrie>
         <Spezialfall>Kiesgrube_Abbaugebiet</Spezialfall>
-        <Bezeichnung>geeignete_FFF</Bezeichnung>
+        <Bezeichnung>keine_FFF</Bezeichnung>
         <Beschreibung>fubar</Beschreibung>
-        <Datenstand>2021-05-26</Datenstand>
-        <anrechenbar>0.50</anrechenbar>
-        <Erfassung>sz</Erfassung>
-        <Fall>ersetzen</Fall>
-      </SO_ALW_FFF_Uebersteuerung_20210528.Uebersteuerung.Uebersteuerung>
-      <SO_ALW_FFF_Uebersteuerung_20210528.Uebersteuerung.Uebersteuerung TID="8a90aced-dca7-4d03-80c9-ae593415c15c">
-        <Geometrie>
-          <SURFACE>
-            <BOUNDARY>
-              <POLYLINE>
-                <COORD>
-                  <C1>2621283.286</C1>
-                  <C2>1237595.192</C2>
-                </COORD>
-                <COORD>
-                  <C1>2621786.160</C1>
-                  <C2>1236474.030</C2>
-                </COORD>
-                <COORD>
-                  <C1>2622824.883</C1>
-                  <C2>1236787.296</C2>
-                </COORD>
-                <COORD>
-                  <C1>2621283.286</C1>
-                  <C2>1237595.192</C2>
-                </COORD>
-              </POLYLINE>
-            </BOUNDARY>
-          </SURFACE>
-        </Geometrie>
-        <Spezialfall>Kiesgrube_Abbaugebiet</Spezialfall>
-        <Bezeichnung>bedingt_geeignete_FFF</Bezeichnung>
-        <Beschreibung>jjjj</Beschreibung>
-        <Datenstand>2021-05-19</Datenstand>
-        <anrechenbar>0.50</anrechenbar>
+        <Datenstand>2021-06-10</Datenstand>
+        <anrechenbar>0.00</anrechenbar>
         <Erfassung>sz</Erfassung>
         <Fall>ausschneiden</Fall>
       </SO_ALW_FFF_Uebersteuerung_20210528.Uebersteuerung.Uebersteuerung>

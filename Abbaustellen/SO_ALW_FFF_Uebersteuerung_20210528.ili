@@ -47,6 +47,10 @@ VERSION "2021-05-28"  =
        */
       !!@ ili2db.dispName = "Bezeichnung"
       Bezeichnung : MANDATORY (
+        /** keine FFF
+         */
+        !!@ ili2db.dispName = "keine FFF"
+        keine_FFF,
         /** geeignete FFF
          */
         !!@ ili2db.dispName = "geeignete FFF"
